@@ -19,14 +19,8 @@
 To get started with EMCFFBV2, follow these steps:
 1. **Download the latest release**:
    - Go to the [Releases page](https://github.com/ebolzMagy/EMCFFBV2/releases) and download the `.zip` file for your platform.
-2. **Set up the ESP-IDF framework**:
-   - Follow the instructions in the [Wiki](https://github.com/ebolzMagy/EMCFFBV2/wiki) to set up the ESP-IDF development environment.
-3. **Build and flash the firmware**:
-   - Use the ESP-IDF tools to build and flash the firmware to your ESP32-S2/S3 device.
-4. **Connect your hardware**:
-   - Connect your motors, sensors, and other peripherals as described in the [Hardware Setup Guide](https://github.com/ebolzMagy/EMCFFBV2/wiki/Hardware-Setup).
-5. **Test the force feedback functionality**:
-   - Run the application and test the force feedback effects.
+2. **Tutorial**:
+   - Follow the instructions in the [Wiki](https://github.com/ebolzMagy/EMCFFBV2/wiki).
 
 For more detailed instructions, troubleshooting, and FAQs, visit the [Wiki](https://github.com/ebolzMagy/EMCFFBV2/wiki) or join the [Discussions](https://github.com/ebolzMagy/EMCFFBV2/discussions) to ask questions and share ideas.
 
@@ -35,7 +29,7 @@ For more detailed instructions, troubleshooting, and FAQs, visit the [Wiki](http
 ## Support the Project
 If you find this project useful, consider supporting its development:
 
-- **Donate via PayPal**: [PayPal.me Link]
+- **Donate via PayPal**: [PayPal.me/ebolzmagy](https://paypal.me/ebolzmagy)
 - **Report Issues**: Help us improve by reporting bugs or suggesting new features.
 
 ### Free vs Full Version
