@@ -50,3 +50,6 @@ Your feedback is invaluable to us! If you encounter any issues or have suggestio
 - Provide as much detail as possible, including steps to reproduce the issue.
 
 Thank you for your support and understanding as we continue to develop and refine this project!
+
+## License
+This project is licensed under the **Creative Commons Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)** license. You are free to share and use this project, but **modification and redistribution of modified versions are prohibited**. For more details, see the [LICENSE](LICENSE) file.
