@@ -26,23 +26,6 @@ For more detailed instructions, troubleshooting, and FAQs, visit the [Wiki](http
 
 > **Disclaimer**: This project is still in development. Some features may not work as expected, and there may be occasional bugs. If you encounter any issues, please report them in the [Issues](https://github.com/ebolzMagy/EMCFFBV2/issues) section.
 
-## Support the Project
-If you find this project useful, consider supporting its development:
-
-- **Donate via PayPal**: [PayPal.me/ebolzmagy](https://paypal.me/ebolzmagy)
-- **Report Issues**: Help us improve by reporting bugs or suggesting new features.
-
-### Free vs Full Version
-The **free version** of this project includes basic Force Feedback (FFB) effects:
-- **Desktop Spring**: Simulates a spring force centered on the desktop.
-- **Endstop**: Provides a hard stop effect at the boundaries.
-
-To unlock the **full version** with access to all FFB effects (such as constant force, sine, square, damper, inertia, and friction), you can support this project by donating a minimum of **10 USD** via [PayPal.me/ebolzmagy](https://paypal.me/ebolzmagy). Your contribution will help us continue developing and improving this project!
-
----
-
-Thank you for your support! Your generosity enables us to keep creating and maintaining high-quality projects for the community.
-
 ---
 
 ### **Feedback and Bug Reports**
