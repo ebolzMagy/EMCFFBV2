@@ -1,44 +1,104 @@
-# EMCFFBV2 - ESP32-Based USB HID Force Feedback Device
+# EMCFFBV2 – USB HID Force Feedback Firmware
 
-**EMCFFBV2** is an advanced project that implements a **USB HID (Human Interface Device)** with **Force Feedback (FFB)** capabilities, powered by the **ESP32-S2** or **ESP32-S3** microcontroller. This project is designed for hobbyists and enthusiasts who want to create custom force feedback devices such as gaming controllers, steering wheels, joysticks, or other interactive input devices.
+**EMCFFBV2** is an advanced firmware project that transforms supported microcontroller platforms into a **USB HID (Human Interface Device)** with **Force Feedback (FFB)** capabilities.
 
-> **Note**: This project is currently in **BETA version**. It is still under active development, and there may be bugs or unfinished features. Your feedback and contributions are highly appreciated as we work to improve and stabilize the project.
+It is designed for hobbyists, makers, and simulation enthusiasts who want to build custom **force feedback devices** such as steering wheels, joysticks, pedals, and other interactive controllers.
+
+EMCFFBV2 currently supports both **ESP32** and **STM32** platforms, offering flexibility across different hardware ecosystems.
+
+> **Project Status**  
+> EMCFFBV2 is currently in **BETA** and under active development.  
+> Some features may be incomplete or subject to change. Feedback and contributions are welcome.
+
+---
+
+## Supported Platforms
+
+- **ESP32-S2**
+- **ESP32-S3**
+- **STM32F4 series** (ODRIVE MINI – STM32F405)
+
+> ⚠️ Installation procedures differ between ESP32 and STM32 platforms.  
+> Please follow the appropriate guide in the Wiki.
+
+---
 
 ## Key Features
-- **USB HID Compliance**: Fully compliant with USB HID standards.
-- **Force Feedback Support**: Implements force feedback effects like constant force, sine, square, spring, damper, inertia, and friction.
-- **ESP32-S2/S3 Powered**: Utilizes the ESP32-S2 or ESP32-S3 microcontroller.
-- **Customizable**: Easily adaptable to various hardware configurations.
 
-## Use Cases
-- **Gaming Controllers**: Create force feedback-enabled gaming peripherals.
-- **Simulators**: Enhance flight or driving simulators.
-- **DIY Projects**: Perfect for makers and hobbyists.
+- **USB HID Compliant**
+  - Works with DirectInput-based applications and games
+- **Force Feedback Support**
+  - Constant Force  
+  - Periodic effects (Sine, Square, Triangle)  
+  - Spring, Damper, Friction, Inertia
+- **Multi-Platform Support**
+  - ESP32-S2 / ESP32-S3 (native USB)
+  - STM32F4 via ODRIVE MINI
+- **Highly Configurable**
+  - Axis mapping
+  - Sensor selection
+  - Motor and driver configuration
+
+---
+
+## Licensing Notice (Important)
+
+> 🔒 **Force Feedback (FFB) functionality requires license activation.**
+
+- **FFB features are not free** and must be activated via the **License Activation** process.
+- All **non-FFB features** (USB HID axes, buttons, basic input devices) are **free to use**.
+- Licensing is **device-based**.
+
+For details, see:
+👉 [License Activation Guide](https://github.com/ebolzMagy/EMCFFBV2/wiki/licenseActivation)
+
+---
+
+## Typical Use Cases
+
+- 🎮 **Force Feedback Steering Wheels**
+- 🕹️ **Joysticks and Controllers**
+- 🏎️ **Driving and Flight Simulators**
+
+---
 
 ## Getting Started
-To get started with EMCFFBV2, follow these steps:
-1. **Download the latest release**:
-   - Go to the [Releases page](https://github.com/ebolzMagy/EMCFFBV2/releases) and download the `.zip` file for your platform.
-2. **Tutorial**:
-   - Follow the instructions in the [Wiki](https://github.com/ebolzMagy/EMCFFBV2/wiki).
 
-For more detailed instructions, troubleshooting, and FAQs, visit the [Wiki](https://github.com/ebolzMagy/EMCFFBV2/wiki) or join the [Discussions](https://github.com/ebolzMagy/EMCFFBV2/discussions) to ask questions and share ideas.
+1. **Download the latest release**
+   - Visit the [Releases page](https://github.com/ebolzMagy/EMCFFBV2/releases)
+   - Download the package for your platform
 
-> **Disclaimer**: This project is still in development. Some features may not work as expected, and there may be occasional bugs. If you encounter any issues, please report them in the [Issues](https://github.com/ebolzMagy/EMCFFBV2/issues) section.
+2. **Follow the installation guide**
+   - 📘 [Firmware Installation](https://github.com/ebolzMagy/EMCFFBV2/wiki/Firmware-Installation)
 
----
-
-### **Feedback and Bug Reports**
-Your feedback is invaluable to us! If you encounter any issues or have suggestions for improvement, please:
-- Open an issue on the [Issues page](https://github.com/ebolzMagy/EMCFFBV2/issues).
-- Provide as much detail as possible, including steps to reproduce the issue.
+3. **Configure your hardware**
+   - GPIO setup
+   - Axis setup
+   - Sensor selection
+   - Motor & driver configuration
 
 ---
 
-### **Join the Discussion**
-Have questions, ideas, or want to share your experience? Join the [Discussions](https://github.com/ebolzMagy/EMCFFBV2/discussions) to connect with the community!
+## Documentation & Community
+
+- 📚 **Wiki**  
+  https://github.com/ebolzMagy/EMCFFBV2/wiki
+
+- 💬 **Discussions**  
+  https://github.com/ebolzMagy/EMCFFBV2/discussions
+
+- 🐞 **Bug Reports & Issues**  
+  https://github.com/ebolzMagy/EMCFFBV2/issues
 
 ---
 
-## License
-This project is licensed under the **Creative Commons Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)** license. You are free to share and use this project, but **modification and redistribution of modified versions are prohibited**. For more details, see the [LICENSE](LICENSE) file.
+## Disclaimer
+
+This project is provided **as-is** and is still under active development.  
+Unexpected behavior or unfinished features may exist.
+
+If you encounter bugs or have suggestions, please report them via GitHub Issues.
+
+---
+
+### 🚀 Happy building and enjoy Force Feedback!
