@@ -1,35 +1,36 @@
-Custom Non-Commercial License
-Version 1.0
+END-USER LICENSE AGREEMENT (EULA)
+For EMCFFBV2 Software and Firmware
 
-Copyright (c) 2025. All rights reserved.
+Copyright (c) 2025 ebolzmagy. All rights reserved.
 
-1. PERSONAL USE ONLY
-   This software is provided for PERSONAL, NON-COMMERCIAL use only.
-   You may use, study, and modify the software for your own personal projects.
+1. GRANT OF LICENSE
+   You are granted a limited, non-exclusive, non-transferable license to:
+   - Download and use the provided .hex firmware files
+   - Use the accompanying PC utility software
+   - For PERSONAL, NON-COMMERCIAL purposes only
 
 2. STRICTLY PROHIBITED
-   - Commercial use of any kind
-   - Selling, licensing, or renting this software
-   - Including this software in commercial products
-   - Providing paid services using this software
-   - Distributing modified versions publicly
+   You MAY NOT:
+   - Reverse engineer, decompile, or disassemble the software/firmware
+   - Modify, adapt, or create derivative works
+   - Sell, rent, lease, or sublicense
+   - Use in any commercial product or service
+   - Bypass or remove any license protection mechanisms
 
-3. FFB FEATURES
-   Force Feedback functionality requires separate paid license.
-   Attempting to bypass or crack FFB licensing is illegal.
+3. FFB FUNCTIONALITY
+   Force Feedback features are LOCKED in the free version.
+   Unlocking requires purchasing a license key.
+   Attempting to crack or bypass FFB lock is illegal.
 
-4. ATTRIBUTION
-   If you share this software (unmodified), you must:
-   - Give credit to the original author
-   - State clearly that it's for personal use only
+4. NO REDISTRIBUTION
+   This software may not be redistributed in any form.
+   Users must download directly from the official source.
 
-5. COMMERCIAL LICENSING
-   For commercial use, contact: [ebolz.magy@gmail.com]
-   Commercial license includes:
-   - Rights for commercial distribution
-   - FFB functionality
-   - Technical support
+5. COMMERCIAL USE
+   Commercial use requires a separate commercial license.
+   Contact: ebolz.magy@gmail.com
 
-6. NO WARRANTY
-   This software is provided "AS IS" without any warranty.
+6. TERMINATION
+   Violation of these terms automatically terminates your rights.
 
+By downloading or using this software, you agree to these terms.
