@@ -12,6 +12,34 @@ EMCFFBV2 currently supports both **ESP32** and **STM32** platforms, offering fle
 
 ---
 
+## ⚠️ IMPORTANT LICENSE NOTICE
+
+**THIS IS A BINARY-ONLY DISTRIBUTION**  
+This repository contains **COMPILED FIRMWARE (.hex/.bin files)** and **UTILITY SOFTWARE** only.  
+**SOURCE CODE IS NOT INCLUDED OR PROVIDED.**
+
+### 📜 Usage Terms:
+- **Personal/DIY Use:** ✅ Allowed (non-commercial, personal projects only)
+- **Commercial Use:** ❌ **STRICTLY PROHIBITED** without commercial license
+- **Redistribution:** ❌ **NOT ALLOWED** in any form
+- **Reverse Engineering:** ❌ **EXPRESSLY PROHIBITED**
+
+### 🔒 Force Feedback Licensing:
+- FFB features are **LOCKED** in the free version
+- Activation requires **PAID LICENSE** per device
+- Attempting to bypass/crack FFB protection is **ILLEGAL**
+
+### 🏢 Commercial Licensing:
+For commercial use (OEM, product integration, resale):
+- **Volume pricing available**
+- **Custom firmware options**
+- **Technical support included**
+- **Contact:** ebolz.magy@gmail.com
+
+**By downloading or using these files, you agree to these terms.**
+
+---
+
 ## Supported Platforms
 
 - **ESP32-S2**
@@ -27,7 +55,7 @@ EMCFFBV2 currently supports both **ESP32** and **STM32** platforms, offering fle
 
 - **USB HID Compliant**
   - Works with DirectInput-based applications and games
-- **Force Feedback Support**
+- **Force Feedback Support** (requires license)
   - Constant Force  
   - Periodic effects (Sine, Square, Triangle)  
   - Spring, Damper, Friction, Inertia
@@ -41,22 +69,28 @@ EMCFFBV2 currently supports both **ESP32** and **STM32** platforms, offering fle
 
 ---
 
-## Licensing Notice (Important)
+## 📋 License Activation Process
 
 > 🔒 **Force Feedback (FFB) functionality requires license activation.**
 
-- **FFB features are not free** and must be activated via the **License Activation** process.
-- All **non-FFB features** (USB HID axes, buttons, basic input devices) are **free to use**.
-- Licensing is **device-based**.
+1. **Free Version:**
+   - USB HID functionality ✅
+   - Basic axes/buttons ✅
+   - **Force Feedback** ❌ (locked)
 
-For details, see:
+2. **Licensed Version:**
+   - Complete FFB functionality ✅
+   - Requires **paid activation**
+   - Device-based licensing
+
+**For activation details, see:**  
 👉 [License Activation Guide](https://github.com/ebolzMagy/EMCFFBV2/wiki/licenseActivation)
 
 ---
 
 ## Typical Use Cases
 
-- 🎮 **Force Feedback Steering Wheels**
+- 🎮 **Force Feedback** (requires license)
 - 🕹️ **Joysticks and Controllers**
 - 🏎️ **Driving and Flight Simulators**
 
@@ -66,16 +100,40 @@ For details, see:
 
 1. **Download the latest release**
    - Visit the [Releases page](https://github.com/ebolzMagy/EMCFFBV2/releases)
-   - Download the package for your platform
+   - Download the **free version** for your platform
 
-2. **Follow the installation guide**
+2. **Test basic functionality**
+   - USB HID should work immediately
+   - FFB features will be disabled (locked)
+
+3. **Purchase license for FFB** (if needed)
+   - Contact for pricing
+   - Receive activation instructions
+
+4. **Follow the installation guide**
    - 📘 [Firmware Installation](https://github.com/ebolzMagy/EMCFFBV2/wiki/Firmware-Installation)
 
-3. **Configure your hardware**
+5. **Configure your hardware**
    - GPIO setup
    - Axis setup
    - Sensor selection
    - Motor & driver configuration
+
+---
+
+## 🚫 Prohibited Activities
+
+The following are **STRICTLY PROHIBITED**:
+- Selling or distributing modified versions
+- Integrating into commercial products without license
+- Reverse engineering the firmware/software
+- Sharing license keys or activation tools
+- Using in commercial services/offerings
+
+Violators will be subject to:
+- DMCA takedown notices
+- Legal action for copyright infringement
+- Blacklisting from future updates
 
 ---
 
@@ -86,19 +144,41 @@ For details, see:
 
 - 💬 **Discussions**  
   https://github.com/ebolzMagy/EMCFFBV2/discussions
+  (Commercial inquiries via email only)
 
 - 🐞 **Bug Reports & Issues**  
   https://github.com/ebolzMagy/EMCFFBV2/issues
 
 ---
 
+## 📞 Contact & Support
+
+**For Personal Use Support:**
+- GitHub Discussions
+- Issue tracker
+
+**For Commercial Licensing:**
+- **Email:** ebolz.magy@gmail.com
+- **Response Time:** 24-48 hours
+
+**For Activation Issues:**
+- Include purchase receipt
+- Provide device ID
+
+---
+
 ## Disclaimer
 
-This project is provided **as-is** and is still under active development.  
-Unexpected behavior or unfinished features may exist.
+This firmware is provided **"AS IS"** without warranty of any kind.  
+The developer is not responsible for:
+- Damage to hardware
+- Data loss
+- Personal injury
+- Commercial losses
 
-If you encounter bugs or have suggestions, please report them via GitHub Issues.
+Use at your own risk. Professional/commercial users should obtain appropriate licenses.
 
 ---
 
 ### 🚀 Happy building and enjoy Force Feedback!
+*(with proper licensing)*
